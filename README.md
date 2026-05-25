@@ -1,18 +1,22 @@
 📁 Estrutura de Arquivos
-meu-sistema-web/
-├── index.html
-├── principal.html
+meu-sistema-web/   
+├── index.html   
+├── principal.html  
 ├── paginas/
-│   ├── cadastrar-integrante.html
-│   ├── lista-integrantes.html
-│   ├── dados-adm.html
-│   └── editar-adm.html
-├── css/
-│   └── estilos.css
-└── js/
-    ├── api.js
-    ├── login.js
-    ├── integrantes.js
+
+       ├── cadastrar-integrante.html  
+       ├── lista-integrantes.html  
+       ├── dados-adm.html  
+       └── editar-adm.html
+
+├── css/   
+    
+    └── estilos.css   
+└── js/ 
+
+    ├── api.js   
+    ├── login.js   
+    ├── integrantes.js   
     └── admin.js
 
 
