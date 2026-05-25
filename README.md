@@ -3,14 +3,13 @@ meu-sistema-web/
 ├── index.html   
 ├── principal.html  
 ├── paginas/
+    ├── cadastrar-integrante.html  
+    ├── lista-integrantes.html  
+    ├── dados-adm.html  
+    └── editar-adm.html
 
-       ├── cadastrar-integrante.html  
-       ├── lista-integrantes.html  
-       ├── dados-adm.html  
-       └── editar-adm.html
+├── css/ 
 
-├── css/   
-    
     └── estilos.css   
 └── js/ 
 
