@@ -4,10 +4,11 @@ meu-sistema-web/
 ├── principal.html  
 ├── paginas/
 
-    ├── cadastrar-integrante.html  
-    ├── lista-integrantes.html  
-    ├── dados-adm.html  
-    └── editar-adm.html
+    ├── cadastrarIntegrante.html  
+    ├── listaIntegrantes.html  
+    |── editarIntegrante.html
+    ├── dadosAdm.html  
+    └── editarAdm.html
 
 ├── css/ 
 
@@ -60,6 +61,9 @@ dados-adm.html
 
 editar-adm.html      
 — Formulário de alteração de e-mail e senha do ADM.
+
+editar-integrante.html    
+— Formulário de alteração dos dados do integrante (preenchido dinamicamente via JS) com botão para salvar mudanças.
 
 style.css      
 Todas as regras visuais: cores, fontes, responsividade, layouts de tabelas e formulários. 

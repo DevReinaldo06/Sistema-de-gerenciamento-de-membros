@@ -16,15 +16,15 @@ rel='stylesheet'> <!--Link da biblioteca dos ícones do login-->
 
 <body>
     <main class="container">
-        <form>
+        <form id = "loginForm">
             <h1>Login ADM</h1>
             <div class="inputBox">
-                <input placeholder="Email" type="email">
+                <input placeholder="Email" type="email" id="loginEmail" required>
                 <i class="bx bxs-user"></i>
             </div>
 
             <div class="inputBox">
-                <input placeholder="Senha" type="password">
+                <input placeholder="Senha" type="password" id="loginSenha" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
 
@@ -35,9 +35,16 @@ rel='stylesheet'> <!--Link da biblioteca dos ícones do login-->
                 </label>
             </div>
 
+            <div id="mensagemErro" style="color: red; font-weight: bold;"></div>
+
             <button type="submit" class="login">Login</button>
         </form>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/api.js"></script>
+    <script src="js/login.js"></script>
+
 </body>
 
 
